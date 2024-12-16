@@ -12,6 +12,8 @@ import java.util.Arrays;
 
 public class EncryptionLogic {
 
+    consoleLog("test");
+
     private static final String ALGORITHM = "AES";
     private static final String TRANSFORMATION_AES_GCM = "AES/GCM/NoPadding";
     private static final SecureRandom secureRandom = new SecureRandom();
